@@ -302,7 +302,10 @@ const Item = ({ items }: { items: ItemProps[] }) => {
 					component='div'
 					count={filteredAndSortedItems.length}
 					page={page}
-					onPageChange={(event, newPage) => setPage(newPage)}
+					onPageChange={(event, newPage) => {
+						event?.preventDefault();
+						setPage(newPage);
+					}}
 					rowsPerPage={rowsPerPage}
 					onRowsPerPageChange={(event) => {
 						setRowsPerPage(parseInt(event.target.value, 10));
