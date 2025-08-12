@@ -152,14 +152,6 @@ const Item = ({ items }: { items: ItemProps[] }) => {
 		showInStockOnly,
 	].filter(Boolean).length;
 
-	// const CardTitle = (title: string) => (
-	// 	<Grid size={{ md: 6 }}>
-	// 		<Typography pr={2} fontWeight={'bold'}>
-	// 			{title}
-	// 		</Typography>
-	// 	</Grid>
-	// );
-
 	return (
 		<Box sx={{ width: '100%' }}>
 			<Card sx={{ mb: 2 }}>
