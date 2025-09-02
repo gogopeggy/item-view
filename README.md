@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/product-filter-app.git
+git clone https://github.com/gogopeggy/product-filter-app.git
 cd product-filter-app
 npm install
 ```
